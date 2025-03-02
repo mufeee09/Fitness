@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.how-it-works {
+    padding: 5rem 0;
+    background-color: #ffffff;
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 600;
+  }
+  /* .lora-<uniquifier> {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  } */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  #container{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 5%;
+  }
+  .how-it-works-title {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+  }
+/* .title{
+  /* border: 4px solid white; 
+  padding: 1%;
+  margin-bottom: 4rem;
+  width:max-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+  /* box-shadow: 7px 7px 14px rgba(255,223,0,0.8); 
+  box-shadow: 7px 7px 14px rgba(255, 255, 255, 0.8);
+} */
+  .steps {
+    display: grid;
+    gap: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .steps {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .steps {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    
+  }
+  
+  .step {
+    text-align: center;
+    box-shadow: #6b7280;
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-family:lora;
+  }
+  
+  .step-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+  }
+  
+  .step-description {
+    color: #6b7280;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+  }

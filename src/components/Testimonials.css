@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.testimonials {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+#testimonials{
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 5%;
+}
+.testi-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.swiper {
+  padding: 2rem 0;
+}
+
+.testi-card {
+  background: transparent;
+  border-radius: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.testi-card:hover {
+  transform: scale(1.05);
+}
+
+.testi-card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+}
+
+.testi-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.testi-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.testi-card-desc {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.testi-card-author {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #848484;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testi-card {
+    min-height: 300px;
+    padding: 1rem;
+  }
+
+  .testi-card-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testi-card-title {
+    font-size: 1.3rem;
+  }
+
+  .testi-card-desc {
+    font-size: 0.9rem;
+  }
+
+  .testi-card-author {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .testimonials {
+    padding: 6rem 0;
+  }
+
+  .testi-card {
+    padding: 2rem;
+    min-height: 350px;
+  }
+
+  .testi-card-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .testi-card-title {
+    font-size: 1.8rem;
+  }
+
+  .testi-card-desc {
+    font-size: 1.2rem;
+  }
+
+  .testi-card-author {
+    font-size: 1.1rem;
+  }
+}

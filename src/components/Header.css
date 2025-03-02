@@ -1,0 +1,228 @@
+/* .header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(8px);
+    z-index: 50;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .brand-highlight {
+    color: #dc2626;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-links.desktop {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #dc2626;
+  }
+  
+  .menu-button {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-button {
+      display: none;
+
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+    }
+  }
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    
+  }
+  .mobile-menu {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 1rem;
+  }
+  
+  .mobile-menu .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* .login-modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .login-content {
+    background-color: #1f2937;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 24rem;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .login-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .login-button {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button.google {
+    background-color: white;
+    color: black;
+  }
+  
+  .login-button.google:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .login-button.email {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .login-button.email:hover {
+    background-color: #b91c1c;
+  }
+  
+  .login-button.cancel {
+    background-color: #374151;
+    color: white;
+  }
+  
+  .login-button.cancel:hover {
+    background-color: #4b5563;
+  } */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    z-index: 50;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .brand-highlight {
+    color: #dc2626;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .nav-links.desktop {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #dc2626;
+  }
+  
+  .menu-button {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 701px) {
+    .menu-button {
+      display: none;
+    }
+    
+    .nav-links.desktop {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .nav-links.desktop {
+      display: none;
+    }
+    
+    .mobile-menu {
+      background-color: rgba(0, 0, 0, 0.95);
+      padding: 1rem;
+    }
+    
+    .mobile-menu .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
