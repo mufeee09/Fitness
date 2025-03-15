@@ -4,7 +4,7 @@ import "./Plans.css";
 
 const PaymentSelection = () => {
   const [plan, setPlan] = useState("individual");
-  const [duration, setDuration] = useState(100);
+  const [duration, setDuration] = useState(3);
 
   const durations = {
     individual: [100, 200, 300],
